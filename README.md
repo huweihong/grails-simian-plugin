@@ -14,12 +14,13 @@ You can use the command "grails simian-report" to generate the report files.
 
 If you wanna custom the config of Simian,you can add your config into Config.groovy:
 
-simian{<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;reportsDir="target/simian-reports"<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;fileDir="."<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;cludesFiles=[includes:"\*\*/\*.groovy \*\*/\*.java \*\*/\*.gsp \*\*/\*.js \*\*/\*.css",excludes:"\*\*/bootstrap\*.css"]<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;methodParams=[threshold:20]<br>
-}
+    simian{
+        reportsDir="target/simian-reports"
+        fileDir="."
+        cludesFiles=[includes:"\*\*/\*.groovy \*\*/\*.java \*\*/\*.gsp \*\*/\*.js \*\*/\*.css"
+                    ,excludes:"\*\*/bootstrap\*.css"]
+        methodParams=[threshold:20]
+    }
 
    * reportsDir - the dir for generated report files,default value is APP_TOME/target;
    * fileDir - scan dir,default value is current app's root dir,you can set to "./grails-app" or other as you like;
