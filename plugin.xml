@@ -1,0 +1,14 @@
+<plugin name='simian' version='0.1-SNAPSHOT' grailsVersion='1.3.7 &gt; *'>
+  <author>GroovyQ</author>
+  <authorEmail>land.groovy@gmail.com</authorEmail>
+  <title>Simian for Grails</title>
+  <description>Simian plugin identifies duplication for Grails app code,such as .groovy,.gsp,.java,.js,.css ..., and generate report file(html,xml).
+</description>
+  <documentation>http://grails.org/plugin/simian</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
