@@ -17,8 +17,8 @@ If you want to custom the config of Simian,you can add your config into Config.g
     simian{
         reportsDir="target/simian-reports"
         fileDir="."
-        cludesFiles=[includes:"\*\*/\*.groovy \*\*/\*.java \*\*/\*.gsp \*\*/\*.js \*\*/\*.css"
-                    ,excludes:"\*\*/bootstrap\*.css"]
+        cludesFiles=[includes:"**/*.groovy **/*.java **/*.gsp **/*.js **/*.css"
+                    ,excludes:"**/bootstrap*.css"]
         methodParams=[threshold:20]
     }
 
