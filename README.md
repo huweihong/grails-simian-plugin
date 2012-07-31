@@ -8,11 +8,11 @@ grails install-plugin simian
 
 ## Plugin Usage ##
 
-You can use the command "grails simian-report" to generate the report files.
+grails simian-report
 
 ## Custom Config ##
 
-If you wanna custom the config of Simian,you can add your config into Config.groovy:
+If you want to custom the config of Simian,you can add your config into Config.groovy:
 
     simian{
         reportsDir="target/simian-reports"
