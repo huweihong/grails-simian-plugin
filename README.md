@@ -10,7 +10,9 @@ grails install-plugin simian
 
 grails simian-report
 
-Note:This plugin will use simian-2.3.33.jar.Due to there are not simian-2.3.33.jar in Maven Repository, you should upload simian-2.3.33.jar in your own repository and add the repository url in dependencies.groovy. for example: mavenRepo "http://ok988cis.eicp.net:8080/artifactory/libs-release-local/".
+Note:This plugin will use simian-2.3.33.jar.Due to there are not simian-2.3.33.jar in Maven Repository, you should upload simian-2.3.33.jar in your own repository and add the repository url in dependencies.groovy. for example: 
+    
+    mavenRepo "http://ok988cis.eicp.net:8080/artifactory/libs-release-local/"
 
 ## Custom Config ##
 
