@@ -2,6 +2,14 @@
 
 Simian plugin is using <a href="http://www.harukizaemon.com/simian/">Simian</a> to identify duplication for Grails app code,such as .groovy,.gsp,.java,.js,.css ..., and generate report file(html,xml).
 
+## Install Plugin ##
+
+You can use the command "grails install-plugin simian" to install this plugin.
+
+## Using Plugin ##
+
+You can use the command "grails simian-report" to generate the report files.
+
 ## Custom Config ##
 
 If you wanna custom the config of Simian,you can add your config into Config.groovy:
