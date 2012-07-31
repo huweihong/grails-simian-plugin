@@ -4,9 +4,9 @@ Simian plugin is using <a href="http://www.harukizaemon.com/simian/">Simian</a> 
 
 ## Install Plugin ##
 
-You can use the command "grails install-plugin simian" to install this plugin.
+grails install-plugin simian
 
-## Using Plugin ##
+## Plugin Usage ##
 
 You can use the command "grails simian-report" to generate the report files.
 
@@ -15,10 +15,10 @@ You can use the command "grails simian-report" to generate the report files.
 If you wanna custom the config of Simian,you can add your config into Config.groovy:
 
 simian{<br>
-    reportsDir="target/simian-reports"<br>
-    fileDir="."<br>
-    cludesFiles=[includes:"\*\*/\*.groovy \*\*/\*.java \*\*/\*.gsp \*\*/\*.js \*\*/\*.css",excludes:"\*\*/bootstrap\*.css"]<br>
-    methodParams=[threshold:20]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;reportsDir="target/simian-reports"<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;fileDir="."<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;cludesFiles=[includes:"\*\*/\*.groovy \*\*/\*.java \*\*/\*.gsp \*\*/\*.js \*\*/\*.css",excludes:"\*\*/bootstrap\*.css"]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;methodParams=[threshold:20]<br>
 }
 
    * reportsDir - the dir for generated report files,default value is APP_TOME/target;
