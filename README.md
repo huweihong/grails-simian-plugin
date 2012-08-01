@@ -31,3 +31,6 @@ If you want to custom the config of Simian,you can add your config into Config.g
    * cludesFiles - there are two elements, includes and excludes,each value is splited using a space;
    * methodParams - this is a params map, you can set method params of Simian,such as <i>threshold</i>,<i>defaultLanguage</i>,<i>failOnDuplication</i>,<i>ignoreCharacterCase</i> etc.If you want to know the other method params,you can check <a href="http://www.harukizaemon.com/simian/javadoc/com/harukizaemon/simian/SimianTask.html">SimianTask</a>.
 
+## License ##
+
+This plugin is distributed under Apache License Version 2. For the license of <a href="http://www.harukizaemon.com/simian/">Simian</a>, please read it <a href="http://www.harukizaemon.com/simian/LICENSE.txt">here</a>.
