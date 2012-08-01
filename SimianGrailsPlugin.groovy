@@ -30,17 +30,7 @@ class SimianGrailsPlugin {
     String description = '''Simian plugin identifies duplication for Grails app code,such as .groovy,.gsp,.java,.js,.css ..., and generate report file(html,xml).
 '''
 
-    def documentation = "http://grails.org/plugin/simian"
-
-    def doWithWebDescriptor = { xml ->}
-
-    def doWithSpring = {}
-
-    def doWithDynamicMethods = { ctx ->}
-
-    def doWithApplicationContext = { applicationContext ->}
-
-    def onChange = { event ->}
-
-    def onConfigChange = { event ->  }
+    def documentation = "https://github.com/huweihong/grails-simian-plugin/blob/master/README.md"
+    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GRAILSPLUGINS" ]
+    def scm = [ url: "http://svn.grails-plugins.codehaus.org/browse/grails-plugins/"]
 }
