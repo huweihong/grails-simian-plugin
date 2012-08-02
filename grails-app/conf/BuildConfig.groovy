@@ -16,6 +16,7 @@ grails.project.dependency.resolution = {
          * for example:
          * mavenRepo "http://ok988cis.eicp.net:8080/artifactory/libs-release-local/"
          */
+         
     }
     dependencies {
         provided 'simian:simian:2.3.33' 

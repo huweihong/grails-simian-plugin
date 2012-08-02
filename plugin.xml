@@ -5,10 +5,18 @@
   <description>Simian plugin identifies duplication for Grails app code,such as .groovy,.gsp,.java,.js,.css ..., and generate report file(html,xml).
 </description>
   <documentation>https://github.com/huweihong/grails-simian-plugin/blob/master/README.md</documentation>
-  <resources>
-    <resource>BuildConfig</resource>
-    <resource>Config</resource>
-  </resources>
-  <dependencies />
+  <type>SimianGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+  </repositories>
+  <dependencies>
+    <provided>
+      <dependency group='simian' name='simian' version='2.3.33' />
+    </provided>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
   <behavior />
 </plugin>

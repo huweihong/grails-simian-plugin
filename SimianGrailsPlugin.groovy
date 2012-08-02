@@ -23,7 +23,7 @@ class SimianGrailsPlugin {
     
     def dependsOn = [:]
     
-    String license = "APACHE2"
+    String license = "APACHE"
     String author = "huweihong"
     String authorEmail = "weihong0427@163.com"
     String title = "Simian for Grails"
