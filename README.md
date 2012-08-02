@@ -8,7 +8,7 @@ grails install-plugin simian 0.1-SNAPSHOT
 
 Note:If you are using Grails 1.3.* or before, you should add the following code into "repositories" of your BuildConfig.groovy. If you are using Grails 2.*,please ignore this note:
 
-grailsRepo "http://grails.org/plugins"
+    grailsRepo "http://grails.org/plugins"
 
 ## Plugin Usage ##
 
