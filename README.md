@@ -6,7 +6,7 @@ Simian plugin is using <a href="http://www.harukizaemon.com/simian/">Simian</a> 
 
 grails install-plugin simian 0.1-SNAPSHOT
 
-Note:Because this plugin is uploaded into the new Grails plugin repository,If you are using Grails 1.3.* or before, you should add the following code into "repositories" of your BuildConfig.groovy. If you are using Grails 2.*,please ignore this note:
+Note:If you are using Grails 1.3.* or before, you should add the following code into "repositories" of your BuildConfig.groovy. If you are using Grails 2.*,please ignore this note:
 
 grailsRepo "http://grails.org/plugins"
 
